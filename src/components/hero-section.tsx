@@ -18,7 +18,7 @@ export function HeroSection() {
           <div className="flex flex-col justify-center space-y-4">
             <div className="space-y-2">
               <h1 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl lg:text-6xl/none text-white drop-shadow-md">
-                Yeni maceranızın kapısını <span className="text-orange-500">Çilek Vize</span> ile açın
+                Yeni maceranızın kapısını <span className="text-orange-500">Yetkili Vize</span> ile açın
               </h1>
               <p className="max-w-[600px] text-slate-200 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-slate-100 drop-shadow-md">
                 Vize başvuruları artık stres yaratmıyor. Profesyonel ekibimiz baştan sona yanınızda,

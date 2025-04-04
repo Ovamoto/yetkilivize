@@ -220,7 +220,7 @@ export function Footer() {
           </div>
         </div>
         <div className="mt-8 pt-8 border-t border-orange-800 flex flex-col md:flex-row md:justify-between gap-4 text-sm text-orange-300">
-          <p>&copy; {new Date().getFullYear()} Çilek Vize. Tüm Hakları Saklıdır.</p>
+          <p>&copy; {new Date().getFullYear()} Yetkili Vize. Tüm Hakları Saklıdır.</p>
           <div className="flex flex-wrap gap-4 md:gap-6">
             <Link href="/terms" className="hover:text-white transition-colors">
               Kullanım Şartları

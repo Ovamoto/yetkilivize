@@ -22,7 +22,7 @@ const testimonials = [
     name: "Mehmet Kaya",
     role: "Yazılım Mühendisi",
     testimonial:
-      "İngiltere çalışma vizesi başvurumda karşılaştığım zorlukları Çilek Vize ekibi sayesinde aştım. Tüm sorularıma sabırla yanıt verdiler ve başvuru sürecimde adım adım yönlendirdiler.",
+      "İngiltere çalışma vizesi başvurumda karşılaştığım zorlukları Yetkili Vize ekibi sayesinde aştım. Tüm sorularıma sabırla yanıt verdiler ve başvuru sürecimde adım adım yönlendirdiler.",
     avatar: "MK",
   },
   {
@@ -30,7 +30,7 @@ const testimonials = [
     name: "Zeynep Koç",
     role: "Doktor",
     testimonial:
-      "Kanada'ya taşınma sürecimde vize danışmanlığı için Çilek Vize'yi tercih ettim. Başvuru sürecindeki tüm karmaşık adımları benim için basitleştirdiler ve başarılı bir sonuç aldım.",
+      "Kanada'ya taşınma sürecimde vize danışmanlığı için Yetkili Vize'yi tercih ettim. Başvuru sürecindeki tüm karmaşık adımları benim için basitleştirdiler ve başarılı bir sonuç aldım.",
     avatar: "ZK",
   },
 ];

@@ -6,7 +6,7 @@ export function NavigationMenu() {
     <header className="fixed top-0 left-0 right-0 z-50 bg-white/90 backdrop-blur-sm border-b">
       <div className="container flex items-center justify-between h-16 px-4 md:h-20">
         <Link href="/" className="flex items-center gap-2">
-          <span className="text-2xl font-bold text-orange-600">Çilek Vize</span>
+          <span className="text-2xl font-bold text-orange-600">Yetkili Vize</span>
         </Link>
         <nav className="hidden md:flex items-center gap-6">
           <Link href="/#services" className="text-sm font-medium hover:text-orange-600 transition-colors">
