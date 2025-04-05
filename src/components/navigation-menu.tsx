@@ -41,7 +41,7 @@ export function NavigationMenu() {
           </Button>
           <Button size="sm" asChild>
             <a
-              href="https://wa.me/905xxxxxxxxx"
+              href="https://wa.me/905394327763"
               target="_blank"
               rel="noopener noreferrer"
             >
