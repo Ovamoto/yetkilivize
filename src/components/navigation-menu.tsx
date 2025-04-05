@@ -8,13 +8,13 @@ export function NavigationMenu() {
       <div className="container flex items-center justify-between h-16 px-4 md:h-20">
         <Link href="/" className="flex items-center gap-2">
           <Image
-            src="/logo.jpeg"
+            src="/logo.jpg"
             alt="Yetkili Vize Logo"
-            width={40}
-            height={40}
+            width={100}
+            height={100}
             className="rounded-sm"
           />
-          <span className="text-2xl font-bold text-orange-600">Yetkili Vize</span>
+          <span className="text-2xl font-bold text-orange-600"></span>
         </Link>
 
         <nav className="hidden md:flex items-center gap-6">
