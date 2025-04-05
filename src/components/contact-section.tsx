@@ -38,8 +38,8 @@ export function ContactSection() {
                 </svg>
                 <div>
                   <h3 className="font-semibold text-gray-900">Telefon</h3>
-                  <p className="text-gray-500">+90 (224) 123 45 67</p>
-                  <p className="text-gray-500">+90 (532) 987 65 43</p>
+                  <p className="text-gray-500">+90 (539) 432 77 63</p>
+                
                 </div>
               </div>
               <div className="flex items-start space-x-4">
@@ -60,9 +60,8 @@ export function ContactSection() {
                 </svg>
                 <div>
                   <h3 className="font-semibold text-gray-900">E-posta</h3>
-                  <p className="text-gray-500">info@cilekvize.com</p>
-                  <p className="text-gray-500">iletisim@cilekvize.com</p>
-                </div>
+                  <p className="text-gray-500">yetkilivize@gmail.com</p>
+                                </div>
               </div>
               <div className="flex items-start space-x-4">
                 <svg
@@ -83,8 +82,12 @@ export function ContactSection() {
                 <div>
                   <h3 className="font-semibold text-gray-900">Adres</h3>
                   <p className="text-gray-500">
-                    İnönü Caddesi, No: 123 <br />
-                    Osmangazi, Bursa
+                  İstinye, Kaplıcalar Cd No: 9  (ABD konsolosluğu karşısı) <br />
+                  Sarıyer, İstanbul
+                  </p>
+                  <p className="text-gray-500">
+                  Harmanlar mahallesi Vali akı caddesi Kaya çarşısı  B blok no:45/C  <br />
+                  Çınarcık, Yalova
                   </p>
                 </div>
               </div>
