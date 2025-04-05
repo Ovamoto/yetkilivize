@@ -1,13 +1,21 @@
 import Link from "next/link";
 import { Button } from "@/components/ui/button";
-
+import Image from "next/image";
 export function NavigationMenu() {
   return (
     <header className="fixed top-0 left-0 right-0 z-50 bg-white/90 backdrop-blur-sm border-b">
       <div className="container flex items-center justify-between h-16 px-4 md:h-20">
-        <Link href="/" className="flex items-center gap-2">
-          <span className="text-2xl font-bold text-orange-600">Yetkili Vize</span>
-        </Link>
+    
+
+<Link href="/" className="flex items-center gap-2">
+  <Image
+    src="url('/logo.jpg')" // ya da "https://..." gibi bir URL
+    alt="Yetkili Vize Logo"
+    width={32}
+    height={32}
+  />
+  <span className="text-2xl font-bold text-orange-600">Yetkili Vize</span>
+</Link>
         <nav className="hidden md:flex items-center gap-6">
           <Link href="/#services" className="text-sm font-medium hover:text-orange-600 transition-colors">
             Hizmetlerimiz
@@ -29,9 +37,15 @@ export function NavigationMenu() {
           <Button variant="outline" size="sm" className="hidden md:flex">
             <Link href="/#contact">Randevu Al</Link>
           </Button>
-          <Button size="sm">
-            <Link href="/application">Başvuru Yap</Link>
-          </Button>
+          <Button size="sm" asChild>
+          <a
+            href="https://wa.me/905394327763"
+            target="_blank"
+            rel="noopener noreferrer"
+          >  </a>
+            Başvuru Yap
+        
+        </Button>
           <Button variant="ghost" size="icon" className="md:hidden">
             <svg
               xmlns="http://www.w3.org/2000/svg"

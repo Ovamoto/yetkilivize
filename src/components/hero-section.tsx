@@ -17,7 +17,7 @@ export function HeroSection() {
       return;
     }
 
-    const phoneNumber = "905302861710"; // <-- Buraya kendi WhatsApp numaranı gir
+    const phoneNumber = "905394327763"; // <-- Buraya kendi WhatsApp numaranı gir
     const message = `Ön Başvuru Talebi:%0Aİsim Soyisim: ${name}%0AE-posta: ${email}%0AVize Tipi: ${visaType}`;
     const whatsappURL = `https://wa.me/${phoneNumber}?text=${message}`;
 
@@ -112,7 +112,7 @@ export function HeroSection() {
                   size="sm"
                   type="submit"
                 >
-                  Ön Başvuru Yap2
+                  Ön Başvuru Yap
                 </Button>
               </form>
             </div>
