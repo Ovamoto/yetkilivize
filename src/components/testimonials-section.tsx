@@ -3,15 +3,15 @@ import { Card, CardContent } from "@/components/ui/card";
 const testimonials = [
   {
     id: 1,
-    name: "Ahmet Yılmaz",
-    role: "İş İnsanı",
+    name: "Canberk Akay",
+    role: "Tasarımcı",
     testimonial:
       "Schengen vizesi başvurumda Yetkili Vize'den aldığım danışmanlık hizmeti sayesinde sorunsuz bir şekilde vizemi aldım. Profesyonel ekip, hızlı iletişim ve güler yüzlü hizmet için teşekkürler!",
     avatar: "AY",
   },
   {
     id: 2,
-    name: "Ayşe Demir",
+    name: "Atalay Demir",
     role: "Öğrenci",
     testimonial:
       "Amerika öğrenci vizesi başvurum için Yetkili Vize'ye başvurdum. Tüm süreç boyunca yanımda oldular ve gerekli tüm belgeleri eksiksiz hazırlamamda bana yardımcı oldular. Sayelerinde vizemi sorunsuz aldım.",

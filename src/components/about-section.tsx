@@ -14,9 +14,20 @@ export function AboutSection() {
               Yetkili Vize ile Vize Süreçleri Artık Çok Kolay
             </h2>
             <p className="text-gray-500 md:text-xl/relaxed">
-              Yetkili Vize olarak 2015 yılından bu yana Bursa'da hizmet vermekteyiz.
-              Amacımız, vize süreçlerini kolaylaştırmak ve müşterilerimizin seyahat
-              planlarını sorunsuz gerçekleştirmelerine yardımcı olmaktır.
+            Yetkili Vize Danışmanlık, vize başvuru sürecinde bireylere ve
+kurumlara profesyonel destek sağlayan bir hizmettir. Vize
+başvurusu, karmaşık ve zaman alıcı bir süreç olabilir; bu
+nedenle, bu alanda uzmanlaşmış danışmanlık firmaları,
+başvuru sahiplerine rehberlik ederek, belgelerin doğru
+hazırlanmasını ve süreçlerin eksiksiz yürütülmesini sağlar.
+Yetkili vize danışmanlık firması, müşterilerinin özel
+ihtiyaçlarını anlayarak, uygun vize türünü belirlemelerinde
+yardımcı olur ve başvurularının başarı şansını artırır. Ayrıca,
+süreç boyunca güncel bilgi ve tavsiyeler sunarak, başvuru
+sahiplerinin karşılaşabileceği olası sorunları önceden tespit
+etmeye çalışır. Bu tür hizmetler, özellikle yurtdışında eğitim,
+çalışma veya turistik seyahat planlayan kişiler için büyük bir
+kolaylık ve güvence sağlar.
             </p>
             <p className="text-gray-500 md:text-xl/relaxed">
               Uzman ekibimiz, vize başvurusu sürecinin her aşamasında yanınızda olup,
