@@ -109,9 +109,15 @@ export function ServicesSection() {
                 <CardDescription className="text-base">{service.description}</CardDescription>
               </CardContent>
               <CardFooter>
-                <Button variant="outline" className="w-full text-orange-600 hover:bg-orange-50" asChild>
-                  <Link href={`/services/${service.id}`}>Detaylı Bilgi</Link>
-                </Button>
+              <Button variant="outline" className="w-full text-orange-600 hover:bg-orange-50" asChild>
+              <Link
+                href={`https://wa.me/905394327763?text=${encodeURIComponent(`Merhaba, ${service.title} hakkında detaylı bilgi almak istiyorum.`)}`}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Detaylı Bilgi
+              </Link>
+            </Button>
               </CardFooter>
             </Card>
           ))}

@@ -4,7 +4,7 @@ const testimonials = [
   {
     id: 1,
     name: "Canberk Akay",
-    role: "Tasarımcı",
+    role: "Tasarım",
     testimonial:
       "Schengen vizesi başvurumda Yetkili Vize'den aldığım danışmanlık hizmeti sayesinde sorunsuz bir şekilde vizemi aldım. Profesyonel ekip, hızlı iletişim ve güler yüzlü hizmet için teşekkürler!",
     avatar: "AY",
@@ -19,7 +19,7 @@ const testimonials = [
   },
   {
     id: 3,
-    name: "Mehmet Kaya",
+    name: "Mehmet Şahin",
     role: "Yazılım Mühendisi",
     testimonial:
       "İngiltere çalışma vizesi başvurumda karşılaştığım zorlukları Yetkili Vize ekibi sayesinde aştım. Tüm sorularıma sabırla yanıt verdiler ve başvuru sürecimde adım adım yönlendirdiler.",
@@ -27,7 +27,7 @@ const testimonials = [
   },
   {
     id: 4,
-    name: "Zeynep Koç",
+    name: "Zeynep Arslan",
     role: "Doktor",
     testimonial:
       "Kanada'ya taşınma sürecimde vize danışmanlığı için Yetkili Vize'yi tercih ettim. Başvuru sürecindeki tüm karmaşık adımları benim için basitleştirdiler ve başarılı bir sonuç aldım.",

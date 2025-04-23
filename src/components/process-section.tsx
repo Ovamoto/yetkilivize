@@ -3,8 +3,8 @@ import { Progress } from "@/components/ui/progress";
 const steps = [
   {
     id: 1,
-    title: "Danışmanlık",
-    description: "Uzman ekibimiz ile vize tipinizi ve gereksinimlerinizi belirleyin.",
+    title: "Belgelerin Hazırlığı ve Düzgünlük",
+    description: "Her vize türü için gerekli belgeler farklılık gösterir. Yanlış veya eksik belgelerle yapılan başvurular reddedilebilir. Danışmanlık hizmeti alarak, hangi belgelerin gerektiğini doğru bir şekilde öğrenebilir ve başvurunuzu eksiksiz hazırlayabilirsiniz. Ayrıca, belgelerin formatı ve içerikleri konusunda da rehberlik alabilirsiniz.,",
     icon: (
       <svg
         xmlns="http://www.w3.org/2000/svg"
@@ -28,8 +28,8 @@ const steps = [
   },
   {
     id: 2,
-    title: "Belge Hazırlığı",
-    description: "Başvurunuz için gereken tüm evrakların hazırlanması ve kontrol edilmesi.",
+    title: "Başvuru Sürecinin Hızlandırılması",
+    description: "Vize başvuru süreci uzun ve bazen karmaşık olabilir. Vize danışmanlarımız, başvurunuzun hızlı ve doğru bir şekilde ilerlemesini sağlamak için size yardımcı olur. Başvurularınızın doğru zamanda ve doğru şekilde yapılması, sürecin hızlanmasına yardımcı olabilir.",
     icon: (
       <svg
         xmlns="http://www.w3.org/2000/svg"
@@ -53,8 +53,8 @@ const steps = [
   },
   {
     id: 3,
-    title: "Başvuru Süreci",
-    description: "Başvurunun ilgili konsolosluğa veya elçiliğe sunulması ve takibi.",
+    title: "İhtimallerin Değerlendirilmesi",
+    description: "Bazı durumlarda, vize başvurusu daha yüksek risk taşıyabilir (örneğin, önceki reddedilen vizeler veya eksik seyahat geçmişi gibi). danışmanlarıız, başvurunuzun olası zayıf yönlerini tespit edebilir ve nasıl güçlendireceğiniz konusunda size önerilerde bulunabilir.",
     icon: (
       <svg
         xmlns="http://www.w3.org/2000/svg"
@@ -76,8 +76,8 @@ const steps = [
   },
   {
     id: 4,
-    title: "Sonuçlandırma",
-    description: "Vize sonucunun takibi ve sonrasında seyahat planlaması için destek.",
+    title: "Başvuru Ücretleri ve Zamanı",
+    description: "Vize başvuru ücretleri genellikle yüksek olabilir ve yanlış başvurular, zaman kaybına ve ekstra masraflara yol açabilir. Danışmanlık hizmeti almak, bu tür riskleri azaltarak, başvurunuzun doğru ve etkili bir şekilde yapılmasını sağlar.",
     icon: (
       <svg
         xmlns="http://www.w3.org/2000/svg"
@@ -96,6 +96,75 @@ const steps = [
       </svg>
     ),
   },
+    {
+    id: 5,
+    title: "Mülakat Hazırlığı",
+    description: "Bazı vizeler için mülakat gerekebilir. Danışmanlar, mülakatta nasıl daha iyi performans göstereceğiniz konusunda size rehberlik edebilir ve olası sorulara nasıl cevap vereceğinizi anlatabilir.",
+    icon: (
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        width="24"
+        height="24"
+        viewBox="0 0 24 24"
+        fill="none"
+        stroke="currentColor"
+        strokeWidth="2"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        className="h-6 w-6"
+      >
+        <rect width="18" height="18" x="3" y="3" rx="2" />
+        <path d="M9 13h6" />
+        <path d="M12 10v6" />
+      </svg>
+    ),
+  },
+      {
+    id: 6,
+    title: " Yasal ve Güncel Bilgilere Erişim",
+    description: "Vize prosedürleri sıkça değişebilir. Danışmanlarımız, her zaman güncel yasal gereklilikleri takip ederler, böylece eski veya yanlış bilgilere dayalı bir başvuru yapmamış olursunuz. [9/4 14:13] Mehmet Can: Daha yüksek onay şansı Danışmanlarımız yardımıyla başvurunuz daha profesyonel bir şekilde hazırlanır ve gereksiz hata riski azalır. Bu da başvurunuzun onaylanma şansını artırabilir.",
+    icon: (
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        width="24"
+        height="24"
+        viewBox="0 0 24 24"
+        fill="none"
+        stroke="currentColor"
+        strokeWidth="2"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        className="h-6 w-6"
+      >
+        <rect width="18" height="18" x="3" y="3" rx="2" />
+        <path d="M9 13h6" />
+        <path d="M12 10v6" />
+      </svg>
+    ),
+  },
+  {
+    id: 7,
+    title: "Alternatif Çözümler ve Stratejiler",
+    description: "Bazen başvurular reddedilebilir veya ek belgeler istenebilir. Danışmanlarımız, reddedilen başvurular için alternatif stratejiler geliştirebilir ve yeniden başvuru için en uygun adımları atmanıza yardımcı olabilir. Sonuç olarak, vize başvurularında danışmanlık almak, zaman, para ve enerji tasarrufu sağlarken, başvurunuzun onaylanma şansını artırabilir. Özellikle karmaşık durumlar veya ilk kez başvuru yapanlar için danışmanlık büyük fayda sağlar.",
+    icon: (
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        width="24"
+        height="24"
+        viewBox="0 0 24 24"
+        fill="none"
+        stroke="currentColor"
+        strokeWidth="2"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        className="h-6 w-6"
+      >
+        <rect width="18" height="18" x="3" y="3" rx="2" />
+        <path d="M9 13h6" />
+        <path d="M12 10v6" />
+      </svg>
+    ),
+  }
 ];
 
 export function ProcessSection() {
@@ -111,7 +180,8 @@ export function ProcessSection() {
               Vize Başvuru Sürecimiz
             </h2>
             <p className="max-w-[900px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-              Vize başvuru sürecinizi sorunsuz ve hızlı bir şekilde yönetmek için adım adım yanınızdayız.
+            Vize başvuruları, genellikle karmaşık ve detaylı süreçlerdir. Vize danışmanları, farklı ülkelerin vize politikalarını ve başvuru süreçlerini iyi bir şekilde bilirler. Bu uzmanlık,
+başvurunuzun doğru şekilde hazırlanmasını sağlar ve hatalı veya eksik belgelerin önüne geçer.
             </p>
           </div>
         </div>
