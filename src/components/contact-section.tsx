@@ -118,56 +118,7 @@ export function ContactSection() {
               </div>
             </div>
           </div>
-          <div className="space-y-4">
-            <div className="p-6 bg-orange-50 rounded-lg shadow-sm">
-              <h3 className="text-xl font-semibold mb-4 text-orange-900">İletişim Formu</h3>
-              <form className="space-y-4">
-                <div className="grid grid-cols-1 gap-4 sm:grid-cols-2">
-                  <div className="space-y-2">
-                    <label htmlFor="name" className="text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70">
-                      İsim Soyisim
-                    </label>
-                    <Input id="name" placeholder="İsim Soyisim" />
-                  </div>
-                  <div className="space-y-2">
-                    <label htmlFor="email" className="text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70">
-                      E-posta Adresi
-                    </label>
-                    <Input id="email" placeholder="E-posta Adresi" type="email" />
-                  </div>
-                </div>
-                <div className="space-y-2">
-                  <label htmlFor="phone" className="text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70">
-                    Telefon
-                  </label>
-                  <Input id="phone" placeholder="Telefon Numarası" type="tel" />
-                </div>
-                <div className="space-y-2">
-                  <label htmlFor="subject" className="text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70">
-                    Konu
-                  </label>
-                  <select className="flex h-10 w-full rounded-md border border-input bg-background px-3 py-2 text-sm ring-offset-background file:border-0 file:bg-transparent file:text-sm file:font-medium placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50">
-                    <option value="" disabled selected>Lütfen bir konu seçin</option>
-                    <option value="schengen">Schengen Vizesi</option>
-                    <option value="usa">Amerika Vizesi</option>
-                    <option value="uk">İngiltere Vizesi</option>
-                    <option value="canada">Kanada Vizesi</option>
-                    <option value="other">Diğer Vize Türleri</option>
-                    <option value="general">Genel Bilgi Talebi</option>
-                  </select>
-                </div>
-                <div className="space-y-2">
-                  <label htmlFor="message" className="text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70">
-                    Mesajınız
-                  </label>
-                  <Textarea id="message" placeholder="Mesajınızı buraya yazınız..." rows={5} className="resize-none" />
-                </div>
-                <Button className="w-full bg-orange-600 hover:bg-orange-700" size="lg">
-                  Gönder
-                </Button>
-              </form>
-            </div>
-          </div>
+          
         </div>
       </div>
     </section>

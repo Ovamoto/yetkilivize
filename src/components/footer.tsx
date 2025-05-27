@@ -10,7 +10,7 @@ export function Footer() {
               <span className="text-2xl font-bold">Yetkili Vize</span>
             </Link>
             <p className="text-orange-200 text-sm">
-              2020 yılından bu yana vize danışmanlık hizmetleri konusunda uzman ekibimizle sizlere yardımcı olmaktan
+              2018 yılından bu yana vize danışmanlık hizmetleri konusunda uzman ekibimizle sizlere yardımcı olmaktan
               mutluluk duyuyoruz.
             </p>
             <div className="flex space-x-4">

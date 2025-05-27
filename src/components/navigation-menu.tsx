@@ -10,8 +10,8 @@ export function NavigationMenu() {
           <Image
             src="/logo.jpg"
             alt="Yetkili Vize Logo"
-            width={100}
-            height={100}
+            width={75}
+            height={75}
             className="rounded-sm"
           />
           <span className="text-2xl font-bold text-orange-600"></span>
